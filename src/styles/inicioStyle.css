@@ -18,9 +18,9 @@ footer{
 }
 
 footer p{
-    font-size: 200%;
+    font-size: 140%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
+    color: rgba(255, 255, 255, 0.575);
     text-align: center;
     padding: 5%;
 }
@@ -50,7 +50,7 @@ header nav ul a{
 
 header nav ul li{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 120%;
+    font-size: 150%;
     
 }
 
@@ -156,6 +156,7 @@ main{
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 300%;
-    margin-top: 390px;
+    margin-top: 420px;
     text-decoration-line: none;
+    background:rgb(252, 196, 21);
 }

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+}
+
+body{
+    width:100%;
+    height: 100vh;
+}
+
+header,main,footer{
+    width:100%;
+    position: relative;
+}
+
+footer{
+    background-image: url(../img/FondoPantallaDos.png);
+    padding: 0;
+}
+
+footer p{
+    font-size: 140%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(255, 255, 255, 0.575);
+    text-align: center;
+    padding: 5%;
+}
+
+header{
+    background-image: url(../img/FondoPantallaDos.png);
+}
+header nav{
+    width:100%;
+    background: rgb(8, 11, 39);
+}
+
+header nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+header nav ul a{
+    margin: 0 auto;
+    list-style: none;
+    text-decoration-line: none;
+    color: white;
+}
+
+header nav ul li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
+    
+}
+
+.logo{
+    width:100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.logo img{
+    width:12%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(24,44,105);
+}
+
+#contenedorPelis{
+    display: flex;
+    flex-wrap: wrap;
+    width:80%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#contenedorPelis a{
+    margin:0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
