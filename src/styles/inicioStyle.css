@@ -160,3 +160,53 @@ main{
     text-decoration-line: none;
     background:rgb(252, 196, 21);
 }
+
+@media screen and (max-width:800px){
+    #texto div p{
+        font-size: 150%;
+    }
+    #texto div a p{
+        font-size: 150%;
+    }
+    #texto1{
+        font-size:200%;
+    }
+    #proximosEstrenos a{
+        font-size: 200%;
+        margin-top: 220px;
+    }
+    
+}
+
+@media screen and (max-width:700px){
+    #texto div p{
+        font-size: 150%;
+    }
+    #contenedorBoton a{
+        font-size: 100%;
+    }
+    #texto1{
+        font-size:150%;
+    }
+    #proximosEstrenos a{
+        font-size: 100%;
+        margin-top: 140px;
+    }
+}
+
+@media screen and (max-width:400px){
+    #texto div p{
+        font-size: 80%;
+    }
+
+    #contenedorBoton a{
+        font-size: 60%;
+    }
+    #texto1{
+        font-size:100%;
+    }
+    #proximosEstrenos a{
+        font-size: 80%;
+        margin-top: 50px;
+    }
+}
