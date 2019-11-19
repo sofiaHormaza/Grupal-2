@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+}
+
+body{
+    width:100%;
+    height: 100vh;
+}
+
+header,main,footer{
+    width:100%;
+    position: relative;
+}
+
+footer{
+    background-image: url(../img/FondoPantallaDos.png);
+    padding: 0;
+}
+
+footer p{
+    font-size: 200%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+header{
+    background-image: url(../img/FondoPantallaDos.png);
+}
+header nav{
+    width:100%;
+    background: rgb(8, 11, 39);
+}
+
+header nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+header nav ul a{
+    margin: 0 auto;
+    list-style: none;
+    text-decoration-line: none;
+    color: white;
+}
+
+header nav ul li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 120%;
+    
+}
+
+.logo{
+    width:100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.logo img{
+    width:12%;
+}
+
+
+
+
+main{
+    background: rgb(24, 44, 105);
+}
+
+#imagen{
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+    #imagen div image{
+        padding: 15%;
+        width:60%;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+#imagenn{
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+    
+        #imagenn div image{
+            padding: 15%;
+            width:60%;
+            margin: 0 auto;
+            align-items: center;
+        }
