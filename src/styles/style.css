@@ -9,6 +9,7 @@ body{
 header,main,footer{
     width:100%;
     position: relative;
+    background-image: url(../img/FondoPantallaDos.png);
 }
 
 main article{
