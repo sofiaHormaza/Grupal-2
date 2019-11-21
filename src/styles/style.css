@@ -8,19 +8,17 @@ body{
 header,main,footer{
     width:100%;
     position: relative;
-    background-image: url(./img/FondoPantallaDos.png);
+    background-image: url(../img/FondoPantallaDos.png)
 }
 
 main article{
     width:100%;
-    height:100vh;
     display:flex;
     align-content: center;
     flex-direction: column;
 }
 #logo{
     width:100%;
-    height: 450px;
     text-align: center;
 }
 #logo img{
@@ -34,16 +32,16 @@ main article{
     font-size: 450%;
 }
 #ciudadesBotones{
-
+    flex-direction: row;
     width:100%;
-    height: 20%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 #ciudadesBotones div{
     width:12%;
-    height:60px;
     margin: 0 auto;
     display: flex;
 
@@ -57,11 +55,29 @@ main article{
 }
 
 #ciudadesBotones div a p{
-    margin-top: 40;
     color: white;
     text-align: center;
     margin:0 auto;
     height: 100%;
+}
+
+@media only screen and (max-width:600px) {
+    #pregunta{
+        font-size: 250%;
+    }
+    #ciudadesBotones{
+        flex-direction: column;
+    }
+    #ciudadesBotones div a{
+        font-size: 100%;
+    }
+}
+
+
+@media only screen and (max-width:768px) and (min-width:481px) {
+    #pregunta{
+        font-size: 150%;
+    }
 }
 
 
