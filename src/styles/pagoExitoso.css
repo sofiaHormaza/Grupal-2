@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+}
+
+body{
+    width:100%;
+    height: 100vh;
+}
+
+header,main,footer{
+    width:100%;
+    position: relative;
+}
+
+footer{
+    background-image: url(../img/FondoPantallaDos.png);
+    padding: 0;
+}
+
+footer p{
+    font-size: 140%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(255, 255, 255, 0.575);
+    text-align: center;
+    padding: 5%;
+}
+
+header{
+    background-image: url(../img/FondoPantallaDos.png);
+}
+header nav{
+    width:100%;
+    background: rgb(8, 11, 39);
+}
+
+header nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+header nav ul a{
+    margin: 0 auto;
+    list-style: none;
+    text-decoration-line: none;
+    color: white;
+}
+
+header nav ul li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
+    
+}
+
+.logo{
+    width:100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.logo img{
+    width:12%;
+}
+
+main{
+    width:100%;
+    background-image: url(../img/FondoPantallaDos.png);
+}
+
+article{
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imagen{
+    padding-top:0%;
+    width:50%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+#imagen img{
+    padding-top:1%;
+    padding:6%;
+    width:60%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+#titulo{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top:5%;
+    font-size: 400%;
+    text-align: center;
+}
+
+#nota{
+    font-size: 150%;
+    color: rgba(255, 255, 255, 0.925);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 2%;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#datos p{
+    text-align: center;
+    font-size: 180%;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 2%;
+}
+
+#boton{
+    text-align: center;
+    padding-top:40%;
+}
+
+#boton button{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 150%;
+   background-color:rgb(252, 196, 21);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 16px;
+}
+
+@media screen and (max-width:800px){
+    #titulo{
+        font-size: 300%;
+    }
+    #nota{
+        font-size: 100%;
+    }
+    #datos p{
+        font-size:120%;
+    }
+    footer p{
+        font-size: 100%;
+    }
+    #boton button{
+        font-size:100%;
+    }
+}
+  
+@media screen and (max-width:700px){
+    #titulo{
+        font-size:200%;
+    }
+    #nota{
+        font-size: 80%;
+    }
+    #datos p{
+        font-size:90%;
+    }
+    footer p{
+        font-size: 80%;
+    }
+    #boton button{
+        font-size:80%;
+    }
+}

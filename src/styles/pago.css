@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+}
+
+body{
+    width:100%;
+    height: 100vh;
+}
+
+header,main,footer{
+    width:100%;
+    position: relative;
+}
+
+footer{
+    background-image: url(../img/FondoPantallaDos.png);
+    padding: 0;
+}
+
+footer p{
+    font-size: 140%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(255, 255, 255, 0.575);
+    text-align: center;
+    padding: 5%;
+}
+
+header{
+    background-image: url(../img/FondoPantallaDos.png);
+}
+header nav{
+    width:100%;
+    background: rgb(8, 11, 39);
+}
+
+header nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+header nav ul a{
+    margin: 0 auto;
+    list-style: none;
+    text-decoration-line: none;
+    color: white;
+}
+
+header nav ul li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
+    
+}
+
+.logo{
+    width:100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.logo img{
+    width:12%;
+}
+
+main{
+    background-image: url(../img/FondoPantallaDos.png);
+}
+
+#titulo{
+    text-align:center;
+    color:white;
+    padding:2%;
+    padding-top: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 300%;
+}
+#tarjetas{
+    width:40%;
+    padding: 2%;
+    padding-bottom: 5%;
+    margin: 0 auto;
+    background: rgb(40, 50, 143);
+    text-align: center;
+}
+
+#tarjetas form p{
+    padding:5%;
+    font-size: 150%;
+}
+
+#tarjetas form input{
+    width:50%;
+    padding:2%;
+}
+
+#boton {
+    width:10%;
+    margin: 0 auto;
+    margin-top: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200%;
+    background:rgb(252, 196, 21);
+}
+
+#boton a{
+    text-decoration-line: none;
+    text-align: center;
+    color: white;
+}
+
+#tarjetas form{
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media screen and (max-width:700px){
+    #tarjetas form p{
+        font-size: 100%;
+    }
+    #titulo{
+        font-size: 300%;
+    }
+    #boton{
+        font-size:100%;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    #tarjetas form p{
+        font-size: 80%;
+    }
+    #titulo{
+        font-size: 200%;
+    }
+    #boton{
+        font-size:100%;
+    }
+   
+}
