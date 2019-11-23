@@ -4,9 +4,9 @@ function pasarPantalla(){
     var valor = elemento.value;
    
     if (valor==="" ||valor===null){
-    window.location.href = "../../pago.html";
+    window.location.href;
     alert("Rellena los campos requeridos");
     }
 else
-    window.location.href = "../../pagoExitoso.html";
+    location.href = "../../pagoExitoso.html";
 }
