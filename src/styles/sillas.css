@@ -75,6 +75,13 @@ article{
     
 }
 
+#reserva{
+    color: white;
+    font-size: 400%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 10%;
+}
+
 #cont{
     flex-wrap: wrap;
     display: flex;
@@ -126,6 +133,10 @@ article a{
         width:15px;
         height: 15px;
     }
+    #reserva{
+        font-size: 200%;
+        padding-bottom: 5%;
+    }
     
 }
 
@@ -134,5 +145,8 @@ article a{
         width:12px;
         height: 12px;
     }
-    
+    #reserva{
+        font-size: 100%;
+        padding-bottom: 5%;
+    }
 }
