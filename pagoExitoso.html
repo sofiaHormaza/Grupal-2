@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cine Solar</title>
 
+    
+    <script src="src/js/model/PagoExitoso.js"></script>
     <link rel="stylesheet" href="src/styles/pagoExitoso.css">
 </head>
 <body>
@@ -28,10 +30,11 @@
                 </nav>
     </header>
     <main>
-        <article>
+        <article id="area">
             <div id="titulo">
                 <p>¡Pago exitoso!</p>
             </div>
+        
             <div id="imagen">
                 <img src="src/img/qr.png">
             </div>
@@ -39,11 +42,11 @@
             <div id="datos">
                 <p>Nombre</p>
                 <p>Ciudad</p>
-                <p>Cantidad</p>
+                <p id="cantidad">Cantidad</p>
                 <p>Total</p>
-
+            
                 <div id="boton">
-                        <button>Descargar</button>
+                        <button onclick="descargar()">Descargar</button>
                      </div>
             </div>
         </article>

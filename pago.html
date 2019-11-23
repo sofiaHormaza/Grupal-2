@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cine solar</title>
 
+    <script src="src/js/model/Pago.js"></script>
     <link rel="stylesheet" href="./src/styles/pago.css">
 </head>
 <body>
@@ -35,13 +36,13 @@
             <div id="tarjetas">
                 <form>
                     <p>Ingrese su número de tarjeta de débito:</p>
-                    <input type="text" name="número">
+                    <input type="text" name="campo" value="">
                     <p>Ingrese el código de verificación de la tarjeta:</p>
-                    <input type="text" name="verificación">
+                    <input type="text" name="campo" value="">
                   </form>
             </div>
             <div id="boton">
-                <a href="pagoExitoso.html">
+                <a href="pagoExitoso.html" onclick="pasarPantalla(); return false;">
                     <p>Pagar</p>
                 </a>
             </div>
