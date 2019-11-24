@@ -69,6 +69,14 @@ main{
     background: rgb(24,44,105);
 }
 
+.pronto{
+    padding-top: 2%;
+    color:white;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0 auto;
+}
+
 #contenedorPelis{
     display: flex;
     flex-wrap: wrap;
@@ -77,8 +85,29 @@ main{
     margin: 0 auto;
 }
 
-#contenedorPelis a{
+#contenedorPelis div{
     margin:0 auto;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+.pelicula p{
+    padding-top: 5%;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width:800px){
+    .pronto{
+        font-size: 60px;
+    }
+    
+}
+
+@media screen and (max-width:700px){
+    .pronto{
+        font-size: 40px;
+    }
 }
